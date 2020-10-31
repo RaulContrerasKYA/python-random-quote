@@ -3,7 +3,7 @@ def main():
 
   #f = open("quotes.txt")
   #quotes = f.readlines()
-  #f.close()
+  #f.close() Tengo que ver porque no se guardan los cambios! esto es raro!
 
   #print(quotes)
 
