@@ -1,11 +1,11 @@
 def main():
-  print("Keep it logically awesome.")
+  #print("Keep it logically awesome.")
 
-  #f = open("quotes.txt")
-  #quotes = f.readlines() Esto es realmente extraño no acabo de entender
-  #f.close() Tengo que ver porque no se guardan los cambios! esto es raro!
+  f = open("quotes.txt")
+  quotes = f.readlines()
+  f.close()
 
-  #print(quotes)
+  print(quotes[0])
 
 if __name__== "__main__":
   main()
